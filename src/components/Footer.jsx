@@ -13,15 +13,15 @@ const Footer = () =>{
                 <ul className='nav d-flex  gap-2 justify-content-center  '>
                   <li>
                    
-                    <a href="/" className="text-fs_l text-color_link text-link_decoration">Home</a>
+                    <a href="/my-portfolio/" className="text-fs_l text-color_link text-link_decoration">Home</a>
                   </li>
                   <li>
                     
-                    <a href="/project" className="text-fs_l text-color_link text-link_decoration">Projects</a>
+                    <a href="/my-portfolio/project" className="text-fs_l text-color_link text-link_decoration">Projects</a>
                   </li>
                   <li>
                    
-                    <a href="/resume" className="text-fs_l text-color_link text-link_decoration">Resume</a>
+                    <a href="/my-portfolio/resume" className="text-fs_l text-color_link text-link_decoration">Resume</a>
                   </li>
                 </ul>
               </div>
