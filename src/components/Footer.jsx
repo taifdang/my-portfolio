@@ -11,17 +11,14 @@ const Footer = () =>{
               <div className='col-12 col-md-4 '>
                 <h6 className='text-center text-fs_xl text-color_title'>Quick link</h6>
                 <ul className='nav d-flex  gap-2 justify-content-center  '>
-                  <li>
-                   
-                    <a href="/" className="text-fs_l text-color_link text-link_decoration">Home</a>
+                  <li>                  
+                    <a href="/" className="text-fs_l text-color_link text-link_decoration">Home</a>                  
                   </li>
-                  <li>
-                    
-                    <a href="./project" className="text-fs_l text-color_link text-link_decoration">Projects</a>
+                  <li>       
+                    <a href="/my-portfolio/project" className="text-fs_l text-color_link text-link_decoration">Projects</a>
                   </li>
-                  <li>
-                   
-                    <a href="./resume" className="text-fs_l text-color_link text-link_decoration">Resume</a>
+                  <li>      
+                    <a href="/my-portfolio/resume" className="text-fs_l text-color_link text-link_decoration">Resume</a>
                   </li>
                 </ul>
               </div>

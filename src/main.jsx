@@ -12,16 +12,15 @@ import ResumePage from './pages/resumePage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/my-portfolio">
+    <BrowserRouter basename="/my-portfolio/">
       <Routes>
         <Route path='/' element={<App/>}>
           <Route index element={<HomePage/>}/>
           <Route path='home' element={<HomePage/>} /> 
           <Route path='project' element={<Projects/>} />
-          <Route path='resume' element={<ResumePage/>} />
-       
+          <Route path='resume' element={<ResumePage/>} />     
         </Route>
-           <Route path="*" element={<NoPage />} />
+        <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
