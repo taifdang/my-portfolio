@@ -9,7 +9,7 @@ export const _fetchData = async (topic) =>{
    }
 };
 export const _downloadFile =  () =>{
-      fetch('https://ecuzsftaupdixgwvjeoy.supabase.co/storage/v1/object/public/imagestore//MyselfCV.pdf')
+      fetch('https://ecuzsftaupdixgwvjeoy.supabase.co/storage/v1/object/public/imagestore//DANGDUCTAI_RESUME.pdf')
       .then(response => response.blob()) // Get the response as a Blob
       .then(blob => {
       // Create a temporary URL for the Blob
