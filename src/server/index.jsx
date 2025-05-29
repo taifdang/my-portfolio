@@ -4,7 +4,7 @@ export const _fetchData = async (topic) =>{
    try{
          var data = await supabase.from(topic).select("*").limit(10);
          return data;
-   }catch{
+   }catch{       
         alert(error);
    }
 };
