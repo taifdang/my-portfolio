@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "copy404": "cpy dist/index.html dist/ --rename=404.html",
+    "copy404": "cpy index.html --rename=404.html --cwd=dist",
     "predeploy": "npm run build && npm run copy404",
     "deploy": "gh-pages -d dist"
   },
