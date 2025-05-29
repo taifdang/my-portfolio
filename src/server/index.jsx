@@ -20,7 +20,7 @@ export const _downloadFile =  () =>{
       link.href = url;
       
       // Set the link attributes for downloading
-      link.setAttribute('download', 'file.pdf');
+      link.setAttribute('download', 'DANGDUCTAI_RESUME.pdf');
       
       // Programmatically click the link to initiate the download
       link.click();
