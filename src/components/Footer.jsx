@@ -12,7 +12,7 @@ const Footer = () =>{
                 <h6 className='text-center text-fs_xl text-color_title'>Quick link</h6>
                 <ul className='nav d-flex  gap-2 justify-content-center  '>
                   <li>                  
-                    <a href="/" className="text-fs_l text-color_link text-link_decoration">Home</a>                  
+                    <a href="/my-portfolio/" className="text-fs_l text-color_link text-link_decoration">Home</a>                  
                   </li>
                   <li>       
                     <a href="/my-portfolio/project" className="text-fs_l text-color_link text-link_decoration">Projects</a>
