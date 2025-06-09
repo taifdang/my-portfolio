@@ -14,7 +14,7 @@ const Projects = () =>{
         const {data,error} = await _fetchData('projects');
         if(error || data == null) console.log("error");
         setProjects(data);
-      }, 2000);
+      }, 1000);
       return()=> clearTimeout(timer);
     },[]);
     return(

@@ -118,7 +118,7 @@ function App() {
               data-bs-toggle="modal" 
               data-bs-target="#exampleModal">
                 <span className='text-color_subscription'>A student and</span>
-                <span className='text-color_link'>... xem thêm</span>
+                <span className='text-color_link'>... see more</span>
               </a>
               <a 
               href="" 
@@ -162,13 +162,13 @@ function App() {
             </div>
             <div class="modal-body">
               <div>
-                <span className='text-fs_xl'>Mô tả</span><br />
+                <span className='text-fs_xl'>Describe</span><br />
                 <span >
                   A student and aspiring Software Developer focusing on backend development with .NET. I am passionate about learning web technologies and the .NET ecosystem. I specialize in backend development with .NET and am continuously expanding my knowledge of modern web technologies.
                 </span>
               </div>
               <div>
-                <span className='text-fs_xl'>Đường liên kết</span><br />
+                <span className='text-fs_xl'>Link</span><br />
                 <ul className='list-item_decoration'> 
                   <li>
                     <div className='d-flex flex-row align-items-center gap-2'>
@@ -177,7 +177,7 @@ function App() {
                           <span>Personal blog</span>
                           <a 
                           className='text-link_decoration'
-                          href=''>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a>
+                          href=''>...</a>
                         </div>
                     </div>
                   </li>
@@ -199,14 +199,14 @@ function App() {
                           <span>Facebook page</span>
                           <a 
                           className='text-link_decoration'
-                          href=''>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a>
+                          href=''>...</a>
                         </div>
                     </div>
                     </li>
                 </ul>
               </div>
               <div>
-                <span className='text-fs_xl'>Thông tin khác</span>
+                <span className='text-fs_xl'>Other information</span>
                 <div>
                     <ul className='list-item_decoration d-flex flex-column gap-2'>
                       <li>
@@ -224,25 +224,25 @@ function App() {
                       <li>
                       <div className='d-flex flex-row align-items-center gap-2'>
                       <span className='fs-5'><i class="bi bi-globe-americas"></i> </span>
-                      <span>Việt Nam</span>
+                      <span>Viet Nam</span>
                       </div>                
                       </li>    
                       <li>
                         <div className='d-flex flex-row align-items-center gap-2'>
                         <span className='fs-5'><i class="bi bi-info-circle"></i></span>           
-                        <span>Đã tham gia 10 thg 10, 2023</span>
+                        <span>Joined Oct 10, 2023</span>
                         </div>                
                       </li>          
                     </ul>
                 </div>
-                <div className='d-flex gap-3'>
+                <div className='d-flex pt-2 gap-3'>
                    <a  type='btn' className='btn btn-light rounded-pill' onClick={_downloadFile}>
                     <span className='pe-2'><i class="bi bi-download"></i></span>
-                    <span>Tải xuống CV</span>
+                    <span>Download CV</span>
                   </a>
                     <button type='btn' className='btn btn-light rounded-pill' onClick={copyClipboard}>
                       <span className='pe-2'><i class="bi bi-share"></i></span>
-                      <span>Chia sẻ trang</span>              
+                      <span>Share page</span>              
                     </button>
                 </div>
               </div>

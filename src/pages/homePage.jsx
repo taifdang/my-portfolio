@@ -11,14 +11,14 @@ const HomePage = () =>{
              const {data,error} = await _fetchData('technologies_list');
             if(error || data == null) console.log("error");
             setTechList(data);
-        }, 2000);
+        }, 1000);
     }
     //rate
     //temp rate default
     const list_rating = [
-        {id:0,title:'Repositories',count:9},
+        {id:0,title:'Repositories',count:12},
         {id:1,title:'Stars',count:5},
-        {id:2,title:'Commits',count:98}
+        {id:2,title:'Commits',count:131}
     ]
     const[rating,setRating] = useState([]);  
     //effect
