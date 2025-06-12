@@ -5,7 +5,7 @@ function CardProject({projects}){
             projects.map(item=>(             
                 <div key={item.id}  className="col-12 col-md-6 col-lg-4 d-flex g-3">
                 <div  className=" border-0 w-100 h-100 ">
-                <div className="box-card_item">
+                <div className="box-card_item product_img-bg">
                     <img 
                     src={item.image_url} 
                     className="object-fit-cover image-focus p-1 image-limit_max" 

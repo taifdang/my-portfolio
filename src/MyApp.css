@@ -9,6 +9,7 @@
     --smoke-light:#606060;
     --link-color:default;
     --logo-color:#646cff;
+    --bg_gray:#f7f7f3;
 }
 body{
     --text-color:#222;
@@ -187,4 +188,14 @@ p {
 .logo-box{
   background-color: var(--logo-color);
   color: #fff;
+}
+/* background-img */
+.product_img-bg{
+    background-color:var(--bg_gray);
+    border-radius: 10px;
+    & img{
+        mix-blend-mode: darken;
+        object-fit: cover;
+        border-radius: 10px;
+    }
 }
